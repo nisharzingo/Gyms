@@ -82,11 +82,11 @@ public class HomeScreenFragment extends Fragment {
     final long PERIOD_MS = 7000;
 
     String[] gridViewString = {
-            "Wifi", "Airport Shuttle",  "No Smoking", "Family", "Restaurant"
+            "Functional Fitness", "Boxing",  "No Smoking", "Family", "Restaurant"
 
     } ;
     int[] gridViewImageId = {
-            R.drawable.wifi, R.drawable.airport_shuttle, R.drawable.nosmoking, R.drawable.family, R.drawable.restaurants
+            R.drawable.functional_fitness, R.drawable.boxing, R.drawable.nosmoking, R.drawable.family, R.drawable.restaurants
 
     };
 

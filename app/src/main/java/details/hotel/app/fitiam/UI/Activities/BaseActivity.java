@@ -78,7 +78,7 @@ public class BaseActivity extends AppCompatActivity {
 
            /* getSupportActionBar().setHomeButtonEnabled(true);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);*/
-            setTitle("Hotel Penthouse");
+            setTitle("Fit I AM");
 
             loadFragment(new HomeScreenFragment());
 

@@ -115,7 +115,7 @@ public class AmenityBookingActivity extends AppCompatActivity {
                         EmailData emailData = new EmailData();
                         emailData.setEmailAddress(PreferenceHandler.getInstance(AmenityBookingActivity.this).getEmailList()+",abhinav@zingohotels.com,nishar@zingohotels.com");
                         emailData.setBody(body);
-                        emailData.setSubject("Hotel Penthouse Hotel : Amenity Booked");
+                        emailData.setSubject("Fit I AM Hotel : Amenity Booked");
                         emailData.setUserName("nishar@zingohotels.com");
                         emailData.setPassword("Razin@1993");
                         emailData.setFromName("Nishar");

@@ -35,7 +35,7 @@
     <details.hotel.app.fitiam.Customs.CustomFonts.TextViewRobotoregular
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hotel Penthouse"
+        android:text="Fit I AM"
         android:textColor="#ffffff"
         android:textStyle="bold"
         android:textSize="28sp"

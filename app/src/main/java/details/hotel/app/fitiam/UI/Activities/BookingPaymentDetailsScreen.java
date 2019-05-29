@@ -750,7 +750,7 @@ public class BookingPaymentDetailsScreen extends AppCompatActivity implements Re
                                     EmailData emailData = new EmailData();
                                     emailData.setEmailAddress(PreferenceHandler.getInstance(BookingPaymentDetailsScreen.this).getEmailList()+",abhinav@zingohotels.com,nishar@zingohotels.com");
                                     emailData.setBody(body);
-                                    emailData.setSubject("Hotel Penthouse Hotel Booking");
+                                    emailData.setSubject("Fit I AM Hotel Booking");
                                     emailData.setUserName("nishar@zingohotels.com");
                                     emailData.setPassword("Razin@1993");
                                     emailData.setFromName("Nishar");
@@ -786,7 +786,7 @@ public class BookingPaymentDetailsScreen extends AppCompatActivity implements Re
                                     fm.setServerId("AIzaSyBFdghUu7AgQVnu27xkKKLHJ6oSz9AnQ8M");
                                     fm.setHotelId(dto.getHotelId());
                                     fm.setTitle("New Booking from Zingo Hotels");
-                                    fm.setMessage("Congrats! Hotel Penthouse got one new booking for "+dto.getDurationOfStay() +" nights from "+dto.getCheckInDate()+" to "+dto.getCheckInDate()+"\nBooking ID:"+dto.getBookingId());
+                                    fm.setMessage("Congrats! Fit I AM got one new booking for "+dto.getDurationOfStay() +" nights from "+dto.getCheckInDate()+" to "+dto.getCheckInDate()+"\nBooking ID:"+dto.getBookingId());
                                     //registerTokenInDB(fm);
                                     fm.setTravellerName(mName.getText().toString());
                                     fm.setNoOfGuest("No of Guest: "+dto.getNoOfAdults());
