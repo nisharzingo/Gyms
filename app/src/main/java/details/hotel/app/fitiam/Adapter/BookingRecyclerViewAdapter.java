@@ -150,24 +150,12 @@ public class BookingRecyclerViewAdapter extends RecyclerView.Adapter<BookingRecy
                         int statusCode = response.code();
                         if (statusCode == 200) {
 
-
                             final HotelDetails hotelDetails =  response.body();
 
                             if(hotelDetails != null)
                             {
-
-
-
                                 mHotelName.setText(hotelDetails.getHotelName());
-
-
-
-
                             }
-
-
-
-
                         }else {
 
                         }
