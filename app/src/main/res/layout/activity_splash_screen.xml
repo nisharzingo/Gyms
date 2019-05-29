@@ -9,21 +9,18 @@
     xmlns:font="http://schemas.android.com/apk/lib/com.thoughtworks.retailshop.util"
     tools:context=".UI.Activities.SplashScreen">
 
-
-
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:background="@color/colorPrimary"
-        >
+        android:background="@color/colorPrimary">
+
         <ImageView
             android:id="@+id/logo_img"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_toRightOf="@+id/pro_txt"
-            android:src="@drawable/hotel_logo" />
+            android:src="@drawable/logo_img"/>
 
         <TextView
             android:id="@+id/pro_txt"
@@ -35,7 +32,7 @@
             android:shadowDx="2"
             android:shadowDy="2"
             android:shadowRadius="1.0"
-            android:text="Hotel Penthouse"
+            android:text="Fit I AM"
             android:textColor="#fff"
             android:textSize="30sp"
             android:textStyle="bold"
@@ -53,7 +50,7 @@
             android:shadowDy="2"
             android:shadowRadius="1.0"
             android:gravity="center"
-            android:text="Business Hotel"
+            android:text="GYM"
             android:textColor="#FFF"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -83,10 +80,7 @@
             android:fontFamily="sans-serif"
             android:gravity="center"
             android:textStyle="bold"
-
-            android:layout_above="@+id/pics"
-
-            />
+            android:layout_above="@+id/pics"/>
 
         <ImageView
             android:layout_width="150dp"
@@ -97,12 +91,8 @@
             android:src="@drawable/zingo_hote_power"
             android:gravity="center"
             android:layout_marginBottom="5dp"
-            android:layout_alignParentBottom="true"
-            />
+            android:layout_alignParentBottom="true" />
 
     </RelativeLayout>
-
-
-
 </FrameLayout>
 
